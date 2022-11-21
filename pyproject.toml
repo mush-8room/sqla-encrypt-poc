@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sqla-encrypt-poc"
+version = "0.1.0"
+description = ""
+authors = ["mush-8room <green_pea88@likelion.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4.44"
+psycopg2-binary = "^2.9.5"
+Flask = "^2.2.2"
+SQLAlchemy-Utils = "^0.38.3"
+flask-sqlalchemy = "^3.0.2"
+cryptography = "^38.0.3"
+Flask-Migrate = "^4.0.0"
+ulid = "^1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
